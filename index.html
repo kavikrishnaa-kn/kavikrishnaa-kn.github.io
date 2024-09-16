@@ -4,18 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    body{
-        /* height: 100vh;
-        width: 100vw; */
-        background-color:rgb(255, 151, 151);
-
-    }
-    </style>
+    
 </head>
 <body>
     <div class="section1">
@@ -128,7 +117,7 @@
     </div>
 <div class="tooltip-container">
   <div class="button-content">
-    <span class="text">Share</span>
+    <span class="text"></span>
     <svg
       class="share-icon"
       xmlns="http://www.w3.org/2000/svg"
@@ -213,15 +202,12 @@
     .section1 {
         width: 80%;
         height: 11rem;
-        background: #FFB75E;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: darkslategray;
         border-radius: 5%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background: rgba( 255, 255, 255, 0.1 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 3.5px );
         -webkit-backdrop-filter: blur( 3.5px );
@@ -241,6 +227,7 @@
 
 
     .profile-data {
+        color:rgb(255, 255, 255);
         width: 60%;
         display: flex;
         flex-direction: column;
@@ -253,7 +240,7 @@
         width: 9rem;
         border-radius: 50%;
         object-fit: cover;
-        border
+        
     }
 
     .section2 {
@@ -307,14 +294,14 @@
     }    
 
     .section5 {
-        
+        margin-left:7%;
         width: 80%;
         height: 9rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding-
+        
     }
     .section-title {
         /* height: 10%; */
@@ -332,8 +319,9 @@
     }
 
     .section6 {
-        width: 70%;
-        height: 12rem;
+      background-color: darkslategray;
+        width: 80%;
+        height: 2.8rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -344,7 +332,7 @@
 /* From uiverse.io by @alshahwan */
 
 .linkedin-button {
-  background-color: #fff;
+  background-color: rgb(83,83,83);
   border: 1px solid #0077b5;
   padding: 5px;
   position: relative;
@@ -397,7 +385,7 @@
   font-size: 15px;
   font-weight: 700;
   color: #ff7576;
-  background-color: #2B3044;
+  background-color: rgb(83, 83, 83);
   border: none;
   outline: none;
   cursor: pointer;
@@ -426,7 +414,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   display: block;
 }
 
@@ -444,7 +432,7 @@
   height: 40px;
   border-radius: 100%;
   border: none;
-  background-color: #30C04F;
+  background-color: rgb(83,83,83);
   box-shadow: 0px 1px 2px #2B3044,
   0px 4px 16px #2B3044;
 }
